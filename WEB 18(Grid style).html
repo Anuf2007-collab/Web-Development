@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <style>
+    .title {
+      font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .bic {
+      color: blue;
+      font-size: 30px;
+      margin: 10px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      background-color: blue;
+    }
+
+    .card {
+      margin: 30px;
+    }
+
+    .mar {
+      font-size: 25px;
+      text-decoration: none;
+      color: rgb(56, 95, 160);
+    }
+  </style>
+</head>
+
+<body>
+  <!--row 1 logo,company name,icons,welcome msg,logout-->
+  <div class="row m-2">
+    <div class="col-1">
+      <img src="csk logo.png" style="width: 100%" alt="" />
+    </div>
+    <div class="col-4">
+      <center>
+        <span class="title" style="color: rgb(242, 93, 19)">CHENNAI</span>
+        <span class="title" style="color: rgb(56, 95, 160)">SUPER</span>
+        <span class="title" style="color: rgb(242, 93, 19)">KINGS</span>
+      </center>
+    </div>
+    <div class="col-3">
+      <center>
+        <i class="bi bi-facebook bic"></i>
+        <i class="bi bi-link bic"></i>
+        <i class="bi bi-share bic"></i>
+      </center>
+    </div>
+    <div class="col-3">Welcome, Anuf</div>
+    <div class="col-1">
+      <a href="logout" style="color: rgb(56, 95, 160)">logout</a>
+    </div>
+  </div>
+  <!--row 2 Menu bar, search text-->
+  <div class="row" style="background-color:rgb(56, 95, 160) ;">
+    <div class="col-8"> <a href="WEB 18(nav).html">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>Pricing
+      </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  </a></div>
+  <div class="col-4">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Search the web" aria-label="Recipient’s username"
+        aria-describedby="basic-addon2" />
+      <span class="input-group-text" id="basic-addon2"><i class="bi bi-google"></i></span>
+    </div>
+  </div>
+  </div>
+  <!-- row 3 scrolling text-->
+  <div class="row">
+    <marquee behavior="" direction="">
+      <h3 style="color: rgb(242, 93, 19)">Welcome to Chennai Super Kings Official Page</h3>
+      <a href="https://www.chennaisuperkings.com/news/newsdetailspage/5582/3" class="mar">TRADE NEWS</a>
+      <a href="https://www.chennaisuperkings.com/matchcentre/teamPage" class="mar">| 2025 SQUAD</a>
+    </marquee>
+  </div>
+  <!-- row 4 Sliding images-->
+  <div class="row">
+    <div class="col-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="csk.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="champions 2021.webp" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="07 08.webp" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="csk 2018.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <div class="card col-3 m-0">
+    <img src="MSD img 1.jpg" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the
+        bulk of the card’s content.
+      </p>
+       <i class="bi bi-hand-thumbs-up"></i><i class="bi bi-chat-left-text"></i>
+    </div>
+  </div>
+  <div class="card col-3 m-0" >
+        <img src="MSD img 2.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <i class="bi bi-hand-thumbs-up"></i>
+          <i class="bi bi-chat-left-text"></i>
+        </div>
+      </div>
+  </div>
+
+
+  <!--cards x 4-->
+  <div class="row">
+    <div style="display: flex">
+      <div class="card" style="width: 18rem">
+        <img src="MSD img 1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="MSD img 2.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="MSD img 1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="MSD img 2.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
